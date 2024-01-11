@@ -11,6 +11,7 @@ interface TextProps extends SRTextProps {
 }
 
 import {createText} from '@shopify/restyle';
+
 import {Theme} from '@theme';
 
 const SRText = createText<Theme>();
