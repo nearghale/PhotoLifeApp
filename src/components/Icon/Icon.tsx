@@ -28,8 +28,8 @@ import {ProfileIcon} from '../../assets/icons/ProfileIcon';
 import {SearchIcon} from '../../assets/icons/SearchIcon';
 import {SettingsIcon} from '../../assets/icons/SettingsIcon';
 import {TrashIcon} from '../../assets/icons/TrashIcon';
-import {useAppTheme} from '../../hooks/useAppTheme';
-import {ThemeColors} from '../../theme/theme';
+import {useAppTheme} from '@hooks';
+import {ThemeColors} from '@theme';
 import {Pressable} from 'react-native';
 
 export interface IconBase {
