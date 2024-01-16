@@ -4,7 +4,7 @@ import {KeyboardAvoidingView, Platform} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
 import {Icon, Text, Box, TouchableOpacityBox} from '@components';
-import {useAppTheme, useAppSafeaArea} from '@hooks';
+import {useAppTheme, useAppSafeArea} from '@hooks';
 
 import {ScrollViewContainer, ViewContainer} from './components/ScreenContainer';
 
@@ -19,7 +19,7 @@ export function Screen({
   canGoBack = false,
   scrollable = false,
 }: ScreenProps) {
-  const {top, bottom} = useAppSafeaArea();
+  const {top, bottom} = useAppSafeArea();
   const {colors} = useAppTheme();
 
   const Container = scrollable ? ScrollViewContainer : ViewContainer;

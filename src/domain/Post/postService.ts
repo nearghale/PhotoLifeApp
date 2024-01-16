@@ -1,0 +1,11 @@
+import {PostApi} from './postApi';
+import {Post} from './types';
+
+async function getList(): Promise<Post[]> {
+  const postList = await PostApi.getList();
+  return postList;
+}
+
+export const postService = {
+  getList,
+};
