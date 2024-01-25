@@ -1,23 +1,15 @@
-import {PageAPI} from '@api';
+import {PageAPI, PageParams, api} from '@api';
 
 import {PostAPI} from './postTypes';
 
-async function getList(): Promise<PageAPI<PostAPI>> {
-  let headersList = {
-    Accept: '*/*',
-    'User-Agent': 'Thunder Client (https://www.thunderclient.com)',
-    Authorization:
-      'Bearer Mw.BXobhQXqSmTGNSoOAZvGG4Hi714vkhr8Wh4ndZBWwuiWgU0f9fijEtkCRojK',
-  };
+async function getList(params: PageParams): Promise<PageAPI<PostAPI>> {
+  await new Promise(resolve => setTimeout(() => resolve(''), 1000));
 
-  let response = await fetch('http://localhost:3333/user/post', {
-    method: 'GET',
-    headers: headersList,
+  const response = await api.get<PageAPI<PostAPI>>('user/post', {
+    params,
   });
 
-  let data: PageAPI<PostAPI> = await response.json();
-
-  return data;
+  return response.data;
 }
 
 export const PostApi = {
