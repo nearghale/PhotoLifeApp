@@ -12,7 +12,7 @@ import {
   TouchableOpacityBoxProps,
 } from '@components';
 import {useAppSafeArea} from '@hooks';
-import {AppTabBottomTabParamList} from '@routes';
+import {AppTabBottomParamList} from '@routes';
 import {$shadowProps} from '@theme';
 
 import {mapScreenToProps} from './mapScreenToProps';
@@ -25,7 +25,7 @@ export function AppTabBar({state, descriptors, navigation}: BottomTabBarProps) {
         const {options} = descriptors[route.key];
 
         const tabItem =
-          mapScreenToProps[route.name as keyof AppTabBottomTabParamList];
+          mapScreenToProps[route.name as keyof AppTabBottomParamList];
 
         const isFocused = state.index === index;
 
