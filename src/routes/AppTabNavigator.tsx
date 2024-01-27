@@ -14,13 +14,13 @@ import {
 
 import {AppTabBar} from './AppTabBar';
 
-export type AppTabBottomTabParamList = {
+export type AppTabBottomParamList = {
   HomeScreen: undefined;
   NewPostScreen: undefined;
   FavoriteScreen: undefined;
   MyProfileScreen: undefined;
 };
-const Tab = createBottomTabNavigator<AppTabBottomTabParamList>();
+const Tab = createBottomTabNavigator<AppTabBottomParamList>();
 
 export function AppTabNavigator() {
   function renderTabBar(props: BottomTabBarProps) {
