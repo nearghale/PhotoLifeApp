@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {usePostCommentList} from 'src/domain/PostComment/useCases/usePostCommentList';
+import {usePostCommentList} from '@domain';
 
-import {Box, Button, Screen, Text} from '@components';
+import {Box, Screen} from '@components';
 import {AppScreenProps} from '@routes';
 
 export function PostCommentScreen({
