@@ -17,7 +17,7 @@ import {HomeEmpty} from './components/HomeEmpty';
 import {HomeHeader} from './components/HomeHeader';
 
 export function HomeScreen({}: AppTabScreenProps<'HomeScreen'>) {
-  const {error, loading, list, fetchNextPage, refresh} = usePostList();
+  const {isLoading, isError, list, fetchNextPage, refresh} = usePostList();
 
   const flatListRef = React.useRef<FlatList<Post>>(null);
 
@@ -37,14 +37,14 @@ export function HomeScreen({}: AppTabScreenProps<'HomeScreen'>) {
         renderItem={renderItem}
         onEndReached={fetchNextPage}
         refreshControl={
-          <RefreshControl refreshing={loading} onRefresh={refresh} />
+          <RefreshControl refreshing={isLoading} onRefresh={refresh} />
         }
-        refreshing={loading}
+        refreshing={isLoading}
         onEndReachedThreshold={0.1}
         ListHeaderComponent={<HomeHeader />}
         contentContainerStyle={{flex: list.length === 0 ? 1 : undefined}}
         ListEmptyComponent={
-          <HomeEmpty refetch={refresh} error={error} loading={loading} />
+          <HomeEmpty refetch={refresh} error={isError} loading={isLoading} />
         }
       />
     </Screen>
