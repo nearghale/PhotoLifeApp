@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {useAuthIsUsernameAvailable, useAuthSignUp} from '@domain';
 import {zodResolver} from '@hookform/resolvers/zod';
 import {useForm} from 'react-hook-form';
 
@@ -9,36 +10,53 @@ import {
   FormTextInput,
   Text,
   Screen,
+  ActivityIndicator,
 } from '@components';
 import {useResetNavigationSuccess} from '@hooks';
-import {AuthScreenProps} from '@routes';
+import {AuthScreenProps, AuthStackParamList} from '@routes';
 
 import {SignUpSchema, signUpSchema} from './signUpSchema';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export function SignUpScreen({navigation}: AuthScreenProps<'SignUpScreen'>) {
+const resetParam: AuthStackParamList['SuccessScreen'] = {
+  title: 'Sua conta foi criada com sucesso!',
+  description: 'Agora é só fazer login na nossa plataforma',
+  icon: {
+    name: 'checkRound',
+    color: 'success',
+  },
+};
+
+const defaultValues: SignUpSchema = {
+  username: '',
+  firstName: '',
+  lastName: '',
+  email: '',
+  password: '',
+};
+
+export function SignUpScreen({}: AuthScreenProps<'SignUpScreen'>) {
   const {reset} = useResetNavigationSuccess();
-  const {control, formState, handleSubmit} = useForm<SignUpSchema>({
-    resolver: zodResolver(signUpSchema),
-    defaultValues: {
-      username: '',
-      fullName: '',
-      email: '',
-      password: '',
+
+  const {signUp, isLoading} = useAuthSignUp({
+    onSuccess: () => {
+      reset(resetParam);
     },
+  });
+
+  const {control, formState, handleSubmit, watch} = useForm<SignUpSchema>({
+    resolver: zodResolver(signUpSchema),
+    defaultValues,
     mode: 'onChange',
   });
+
   function submitForm(formValues: SignUpSchema) {
-    console.log(formValues);
-    reset({
-      title: 'Sua conta foi criada com sucesso!',
-      description: 'Agora é só fazer login na nossa plataforma',
-      icon: {
-        name: 'checkRound',
-        color: 'success',
-      },
-    });
+    signUp(formValues);
   }
+
+  const username = watch('username');
+
+  const usernameQuery = useAuthIsUsernameAvailable({username});
+
   return (
     <Screen canGoBack scrollable>
       <Text preset="headingLarge" mb="s32">
@@ -51,14 +69,28 @@ export function SignUpScreen({navigation}: AuthScreenProps<'SignUpScreen'>) {
         label="Seu username"
         placeholder="@"
         boxProps={{mb: 's20'}}
+        RightComponent={
+          usernameQuery.isFetching ? (
+            <ActivityIndicator size="small" />
+          ) : undefined
+        }
       />
 
       <FormTextInput
         control={control}
-        name="fullName"
+        name="firstName"
         autoCapitalize="words"
-        label="Nome Completo"
+        label="Nome"
         placeholder="Digite seu nome completo"
+        boxProps={{mb: 's20'}}
+      />
+
+      <FormTextInput
+        control={control}
+        name="lastName"
+        autoCapitalize="words"
+        label="Sobrenome"
+        placeholder="Digite seu sobrenome"
         boxProps={{mb: 's20'}}
       />
       <FormTextInput
@@ -78,6 +110,7 @@ export function SignUpScreen({navigation}: AuthScreenProps<'SignUpScreen'>) {
       />
 
       <Button
+        loading={isLoading}
         disabled={!formState.isValid}
         onPress={handleSubmit(submitForm)}
         title="Criar uma conta"

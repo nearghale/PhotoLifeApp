@@ -2,7 +2,7 @@ import {api} from '@api';
 
 import {authAdapter} from './authAdapter';
 import {authApi} from './authApi';
-import {AuthCredentials} from './authTypes';
+import {AuthCredentials, SignUpData} from './authTypes';
 
 async function signIn(
   email: string,
@@ -14,6 +14,19 @@ async function signIn(
   } catch (error) {
     throw new Error('email ou senha inválido');
   }
+}
+
+async function signUp(signUpData: SignUpData): Promise<void> {
+  await authApi.signUp(signUpData);
+}
+
+async function isUserNameAvailable(username: string): Promise<boolean> {
+  const {isAvailable} = await authApi.isUserNameAvailable({username});
+  return isAvailable;
+}
+async function isEmailAvailable(email: string): Promise<boolean> {
+  const {isAvailable} = await authApi.isEmailAvailable({email});
+  return isAvailable;
 }
 
 async function signOut(): Promise<string> {
@@ -33,4 +46,7 @@ export const authService = {
   signOut,
   updateToken,
   removeToken,
+  signUp,
+  isUserNameAvailable,
+  isEmailAvailable,
 };
