@@ -41,6 +41,19 @@ function updateToken(token: string) {
 function removeToken() {
   api.defaults.headers.common.Authorization = null;
 }
+
+async function requestNewPassword(email: string): Promise<string> {
+  const {message} = await authApi.forgotPassword({email});
+  return message;
+}
+
+async function authenticateByRefreshToken(
+  refreshToken: string,
+): Promise<AuthCredentials> {
+  const acAPI = await authApi.refreshToken(refreshToken);
+  return authAdapter.toAuthCredentials(acAPI);
+}
+
 export const authService = {
   signIn,
   signOut,
@@ -49,4 +62,7 @@ export const authService = {
   signUp,
   isUserNameAvailable,
   isEmailAvailable,
+  requestNewPassword,
+  authenticateByRefreshToken,
+  isRefreshTokenRequest: authApi.isRefreshTokenRequest,
 };
