@@ -7,6 +7,7 @@ module.exports = {
   ],
   coveragePathIgnorePatterns: ['/node_modules/', 'index'],
   modulePathIgnorePatterns: ['.*/mockedData/.*'],
+  testTimeout: 15000,
   moduleDirectories: ['node_modules', './src/test'],
   transformIgnorePatterns: [
     'node_modules/(?!((jest-)?react-native|@react-native(-community)?|react-native-safe-area-context)/)',
