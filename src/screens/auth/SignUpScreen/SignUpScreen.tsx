@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {useAuthIsUsernameAvailable, useAuthSignUp} from '@domain';
+import {useAuthSignUp} from '@domain';
 import {zodResolver} from '@hookform/resolvers/zod';
 import {useForm} from 'react-hook-form';
 

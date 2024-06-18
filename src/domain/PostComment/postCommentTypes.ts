@@ -1,8 +1,10 @@
+import {UserAPI} from '../User';
+
 export interface PostComment {
   id: number; // 117;
   message: string;
   createdAt: string; // '2023-07-24T20:38:56.192+10:00';
-  createdAtRelative: string; // '1h, 2 sem';
+  createdAtRelative: string; // '1 h, 2 sem';
   author: {
     id: number; // 6;
     profileURL: string;
@@ -18,15 +20,6 @@ export interface PostCommentAPI {
   post_id: number; // 1;
   created_at: string; // '2023-07-24T20:38:56.192+10:00';
   updated_at: string; // '2023-07-24T20:38:56.192+10:00';
-  user: {
-    id: number; // 6;
-    first_name: string; // 'Samuel';
-    last_name: string; // 'Vilar';
-    username: string; //  'samuelvilar';
-    email: string; //'samu.vilar@coffstack.com';
-    profile_url: string; // 'https://nubble-development.s3.sa-east-1.amazonaws.com/backend-integration/5-samuel.png';
-    is_online: boolean; //false;
-    full_name: string; //'Samuel Vilar';
-  };
+  user: UserAPI;
   meta: any; //{};
 }
