@@ -22,17 +22,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>LSApplicationCategoryType</key>
-	<string>Satoshi-Black.otf
-Satoshi-BlackItalic.otf
-Satoshi-Bold.otf
-Satoshi-BoldItalic.otf
-Satoshi-Italic.otf
-Satoshi-Light.otf
-Satoshi-LightItalic.otf
-Satoshi-Medium.otf
-Satoshi-MediumItalic.otf
-Satoshi-Regular.otf</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -42,11 +33,14 @@ Satoshi-Regular.otf</string>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) precisa de acesso a camera para publicar novos posts.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Para publicar novos posts</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Panchang-Light.otf</string>
 		<string>Satoshi-Black.otf</string>
 		<string>Satoshi-BlackItalic.otf</string>
 		<string>Satoshi-Bold.otf</string>
@@ -58,8 +52,12 @@ Satoshi-Regular.otf</string>
 		<string>Satoshi-MediumItalic.otf</string>
 		<string>Satoshi-Regular.otf</string>
 	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>BootSplash</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -67,8 +65,13 @@ Satoshi-Regular.otf</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

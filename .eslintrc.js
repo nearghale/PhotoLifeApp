@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: [
-    '@react-native-community',
+    '@react-native',
     'plugin:@tanstack/eslint-plugin-query/recommended',
   ],
   plugins: ['import', '@tanstack/query'],
@@ -38,6 +38,7 @@ module.exports = {
             'newlines-between': 'always',
           },
         ],
+        'react-native/no-inline-styles': 'off',
       },
     },
   ],

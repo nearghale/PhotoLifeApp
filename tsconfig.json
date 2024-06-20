@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",
+  "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
@@ -16,6 +16,7 @@
       "@infra": ["src/infra"],
       "@services": ["src/services"],
       "@test": ["src/test"],
+      "@assets": ["src/assets"],
       "test-utils": ["src/test/test-utils"]
     }
   }

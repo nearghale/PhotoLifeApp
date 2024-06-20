@@ -8,22 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* LifePhotoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LifePhotoAppTests.m */; };
-		0EB4EF0A663B74419A54DE51 /* libPods-LifePhotoApp-LifePhotoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA988D2077A4EF3668FD115 /* libPods-LifePhotoApp-LifePhotoAppTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1BBBD4482B26B10A0009BE4D /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD43E2B26B10A0009BE4D /* Satoshi-Black.otf */; };
-		1BBBD4492B26B10A0009BE4D /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD43F2B26B10A0009BE4D /* Satoshi-Medium.otf */; };
-		1BBBD44A2B26B10A0009BE4D /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4402B26B10A0009BE4D /* Satoshi-BoldItalic.otf */; };
-		1BBBD44B2B26B10A0009BE4D /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4412B26B10A0009BE4D /* Satoshi-MediumItalic.otf */; };
-		1BBBD44C2B26B10A0009BE4D /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4422B26B10A0009BE4D /* Satoshi-Regular.otf */; };
-		1BBBD44D2B26B10A0009BE4D /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4432B26B10A0009BE4D /* Satoshi-BlackItalic.otf */; };
-		1BBBD44E2B26B10A0009BE4D /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4442B26B10A0009BE4D /* Satoshi-Light.otf */; };
-		1BBBD44F2B26B10A0009BE4D /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4452B26B10A0009BE4D /* Satoshi-Italic.otf */; };
-		1BBBD4502B26B10A0009BE4D /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4462B26B10A0009BE4D /* Satoshi-Bold.otf */; };
-		1BBBD4512B26B10A0009BE4D /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBD4472B26B10A0009BE4D /* Satoshi-LightItalic.otf */; };
-		287D66CF4E6A6B0D33AE6AAD /* libPods-LifePhotoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F096CFD7431F62A276DA84 /* libPods-LifePhotoApp.a */; };
+		33B9F003C6CA70B29A01A074 /* libPods-LifePhotoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E5EB96E296461CC1B9775E /* libPods-LifePhotoApp.a */; };
+		35D912C8BCB7E65D275F767E /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC125F1EB7E75A4273035B /* ExpoModulesProvider.swift */; };
+		4C2A7BBE2CE0824265F6234D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F34AF33B506C9204B658B2 /* ExpoModulesProvider.swift */; };
+		664CD44B51AF41CF93445FCE /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FCFBA87B04C069A126B7A /* BootSplash.storyboard */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C2D69F422A10925D0057DBEA /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F382A10925C0057DBEA /* Satoshi-Black.otf */; };
+		C2D69F432A10925D0057DBEA /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F392A10925C0057DBEA /* Satoshi-Medium.otf */; };
+		C2D69F442A10925D0057DBEA /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F3A2A10925C0057DBEA /* Satoshi-MediumItalic.otf */; };
+		C2D69F452A10925D0057DBEA /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F3B2A10925C0057DBEA /* Satoshi-Italic.otf */; };
+		C2D69F462A10925D0057DBEA /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F3C2A10925C0057DBEA /* Satoshi-Light.otf */; };
+		C2D69F472A10925D0057DBEA /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F3D2A10925C0057DBEA /* Satoshi-Regular.otf */; };
+		C2D69F482A10925D0057DBEA /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F3E2A10925D0057DBEA /* Satoshi-Bold.otf */; };
+		C2D69F492A10925D0057DBEA /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F3F2A10925D0057DBEA /* Satoshi-BoldItalic.otf */; };
+		C2D69F4A2A10925D0057DBEA /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F402A10925D0057DBEA /* Satoshi-LightItalic.otf */; };
+		C2D69F4B2A10925D0057DBEA /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2D69F412A10925D0057DBEA /* Satoshi-BlackItalic.otf */; };
+		F1AD9F84C356FE734ADC3077 /* libPods-LifePhotoApp-LifePhotoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC35E79FE8CF4C743D43BFF3 /* libPods-LifePhotoApp-LifePhotoAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,24 +49,28 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LifePhotoApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LifePhotoApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LifePhotoApp/main.m; sourceTree = "<group>"; };
-		1BBBD43E2B26B10A0009BE4D /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
-		1BBBD43F2B26B10A0009BE4D /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
-		1BBBD4402B26B10A0009BE4D /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
-		1BBBD4412B26B10A0009BE4D /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
-		1BBBD4422B26B10A0009BE4D /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
-		1BBBD4432B26B10A0009BE4D /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
-		1BBBD4442B26B10A0009BE4D /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
-		1BBBD4452B26B10A0009BE4D /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
-		1BBBD4462B26B10A0009BE4D /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
-		1BBBD4472B26B10A0009BE4D /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
-		35C6C0D62E57CFBFC660FDFD /* Pods-LifePhotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp.debug.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		50F95E0432CA1C7B802F3ACE /* Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		73BB9EF1311197F666CE5E90 /* Pods-LifePhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp.release.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp.release.xcconfig"; sourceTree = "<group>"; };
+		49F34AF33B506C9204B658B2 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-LifePhotoApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		7B6FCFBA87B04C069A126B7A /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = LifePhotoApp/BootSplash.storyboard; sourceTree = "<group>"; };
+		7DDE3CAE04CF1954AADF6018 /* Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LifePhotoApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BACA1AAE85A044125B2FA5C1 /* Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		CCA988D2077A4EF3668FD115 /* libPods-LifePhotoApp-LifePhotoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifePhotoApp-LifePhotoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0F096CFD7431F62A276DA84 /* libPods-LifePhotoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifePhotoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EC125F1EB7E75A4273035B /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		9921F6982931A711418D48E3 /* Pods-LifePhotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp.debug.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BC35E79FE8CF4C743D43BFF3 /* libPods-LifePhotoApp-LifePhotoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifePhotoApp-LifePhotoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D69F362A108FE40057DBEA /* Panchang-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Panchang-Light.otf"; sourceTree = "<group>"; };
+		C2D69F382A10925C0057DBEA /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		C2D69F392A10925C0057DBEA /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		C2D69F3A2A10925C0057DBEA /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		C2D69F3B2A10925C0057DBEA /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		C2D69F3C2A10925C0057DBEA /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		C2D69F3D2A10925C0057DBEA /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		C2D69F3E2A10925D0057DBEA /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		C2D69F3F2A10925D0057DBEA /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		C2D69F402A10925D0057DBEA /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		C2D69F412A10925D0057DBEA /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		C616CA1E527D3803228A3E14 /* Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5E5EB96E296461CC1B9775E /* libPods-LifePhotoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifePhotoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F37AF05FBD84BF2FBBAEB40F /* Pods-LifePhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePhotoApp.release.xcconfig"; path = "Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EB4EF0A663B74419A54DE51 /* libPods-LifePhotoApp-LifePhotoAppTests.a in Frameworks */,
+				F1AD9F84C356FE734ADC3077 /* libPods-LifePhotoApp-LifePhotoAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287D66CF4E6A6B0D33AE6AAD /* libPods-LifePhotoApp.a in Frameworks */,
+				33B9F003C6CA70B29A01A074 /* libPods-LifePhotoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,42 +113,43 @@
 		13B07FAE1A68108700A75B9A /* LifePhotoApp */ = {
 			isa = PBXGroup;
 			children = (
-				1BBBD43D2B26B0B40009BE4D /* fonts */,
+				C2D69F352A108FA50057DBEA /* fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				7B6FCFBA87B04C069A126B7A /* BootSplash.storyboard */,
 			);
 			name = LifePhotoApp;
 			sourceTree = "<group>";
 		};
-		1BBBD43D2B26B0B40009BE4D /* fonts */ = {
+		1D796DFB646FD31FD6D1D98C /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				1BBBD43E2B26B10A0009BE4D /* Satoshi-Black.otf */,
-				1BBBD4432B26B10A0009BE4D /* Satoshi-BlackItalic.otf */,
-				1BBBD4462B26B10A0009BE4D /* Satoshi-Bold.otf */,
-				1BBBD4402B26B10A0009BE4D /* Satoshi-BoldItalic.otf */,
-				1BBBD4452B26B10A0009BE4D /* Satoshi-Italic.otf */,
-				1BBBD4442B26B10A0009BE4D /* Satoshi-Light.otf */,
-				1BBBD4472B26B10A0009BE4D /* Satoshi-LightItalic.otf */,
-				1BBBD43F2B26B10A0009BE4D /* Satoshi-Medium.otf */,
-				1BBBD4412B26B10A0009BE4D /* Satoshi-MediumItalic.otf */,
-				1BBBD4422B26B10A0009BE4D /* Satoshi-Regular.otf */,
+				42D2E45AA4A70B9204A27B89 /* LifePhotoApp */,
+				84894476A3578FF9FDC04E8D /* LifePhotoAppTests */,
 			);
-			name = fonts;
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D0F096CFD7431F62A276DA84 /* libPods-LifePhotoApp.a */,
-				CCA988D2077A4EF3668FD115 /* libPods-LifePhotoApp-LifePhotoAppTests.a */,
+				E5E5EB96E296461CC1B9775E /* libPods-LifePhotoApp.a */,
+				BC35E79FE8CF4C743D43BFF3 /* libPods-LifePhotoApp-LifePhotoAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42D2E45AA4A70B9204A27B89 /* LifePhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				49F34AF33B506C9204B658B2 /* ExpoModulesProvider.swift */,
+			);
+			name = LifePhotoApp;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -160,6 +168,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				1D796DFB646FD31FD6D1D98C /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -175,15 +184,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		84894476A3578FF9FDC04E8D /* LifePhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				90EC125F1EB7E75A4273035B /* ExpoModulesProvider.swift */,
+			);
+			name = LifePhotoAppTests;
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35C6C0D62E57CFBFC660FDFD /* Pods-LifePhotoApp.debug.xcconfig */,
-				73BB9EF1311197F666CE5E90 /* Pods-LifePhotoApp.release.xcconfig */,
-				50F95E0432CA1C7B802F3ACE /* Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig */,
-				BACA1AAE85A044125B2FA5C1 /* Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig */,
+				9921F6982931A711418D48E3 /* Pods-LifePhotoApp.debug.xcconfig */,
+				F37AF05FBD84BF2FBBAEB40F /* Pods-LifePhotoApp.release.xcconfig */,
+				7DDE3CAE04CF1954AADF6018 /* Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig */,
+				C616CA1E527D3803228A3E14 /* Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2D69F352A108FA50057DBEA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C2D69F382A10925C0057DBEA /* Satoshi-Black.otf */,
+				C2D69F412A10925D0057DBEA /* Satoshi-BlackItalic.otf */,
+				C2D69F3E2A10925D0057DBEA /* Satoshi-Bold.otf */,
+				C2D69F3F2A10925D0057DBEA /* Satoshi-BoldItalic.otf */,
+				C2D69F3B2A10925C0057DBEA /* Satoshi-Italic.otf */,
+				C2D69F3C2A10925C0057DBEA /* Satoshi-Light.otf */,
+				C2D69F402A10925D0057DBEA /* Satoshi-LightItalic.otf */,
+				C2D69F392A10925C0057DBEA /* Satoshi-Medium.otf */,
+				C2D69F3A2A10925C0057DBEA /* Satoshi-MediumItalic.otf */,
+				C2D69F3D2A10925C0057DBEA /* Satoshi-Regular.otf */,
+				C2D69F362A108FE40057DBEA /* Panchang-Light.otf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +228,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LifePhotoAppTests" */;
 			buildPhases = (
-				5F3FB7F5D43D1204ACE446D7 /* [CP] Check Pods Manifest.lock */,
+				E30F5A9E70A0E76BCE2F7384 /* [CP] Check Pods Manifest.lock */,
+				97AB90B293F7B5A3DED3723B /* [Expo] Configure project */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				E170265B722A0D1A1A54B5AA /* [CP] Embed Pods Frameworks */,
-				ED13E3B21E3346436F99B81E /* [CP] Copy Pods Resources */,
+				DA63FD8AD4F01E88770DD1BD /* [CP] Embed Pods Frameworks */,
+				7C34EE278F1603BC30B5BDC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +250,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LifePhotoApp" */;
 			buildPhases = (
-				224229A82C2AF3D2C5C4D751 /* [CP] Check Pods Manifest.lock */,
+				941A67C37A94C6D9ED0A5823 /* [CP] Check Pods Manifest.lock */,
+				717BF9AE6527DE7864F0BAF7 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				38611E8EE1846743B6D30E1D /* [CP] Embed Pods Frameworks */,
-				8BFB60E9C201E645BC636D84 /* [CP] Copy Pods Resources */,
+				0A04667AD0DFE8B1653F3C81 /* [CP] Embed Pods Frameworks */,
+				C2DA1B197CC327575602C2F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,18 +316,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBBD44B2B26B10A0009BE4D /* Satoshi-MediumItalic.otf in Resources */,
-				1BBBD44D2B26B10A0009BE4D /* Satoshi-BlackItalic.otf in Resources */,
+				C2D69F462A10925D0057DBEA /* Satoshi-Light.otf in Resources */,
+				C2D69F442A10925D0057DBEA /* Satoshi-MediumItalic.otf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				1BBBD44F2B26B10A0009BE4D /* Satoshi-Italic.otf in Resources */,
-				1BBBD4512B26B10A0009BE4D /* Satoshi-LightItalic.otf in Resources */,
-				1BBBD4502B26B10A0009BE4D /* Satoshi-Bold.otf in Resources */,
-				1BBBD44A2B26B10A0009BE4D /* Satoshi-BoldItalic.otf in Resources */,
-				1BBBD4482B26B10A0009BE4D /* Satoshi-Black.otf in Resources */,
-				1BBBD44E2B26B10A0009BE4D /* Satoshi-Light.otf in Resources */,
-				1BBBD4492B26B10A0009BE4D /* Satoshi-Medium.otf in Resources */,
-				1BBBD44C2B26B10A0009BE4D /* Satoshi-Regular.otf in Resources */,
+				C2D69F422A10925D0057DBEA /* Satoshi-Black.otf in Resources */,
+				C2D69F4A2A10925D0057DBEA /* Satoshi-LightItalic.otf in Resources */,
+				C2D69F452A10925D0057DBEA /* Satoshi-Italic.otf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C2D69F372A108FE40057DBEA /* Panchang-Light.otf in Resources */,
+				C2D69F492A10925D0057DBEA /* Satoshi-BoldItalic.otf in Resources */,
+				C2D69F4B2A10925D0057DBEA /* Satoshi-BlackItalic.otf in Resources */,
+				C2D69F432A10925D0057DBEA /* Satoshi-Medium.otf in Resources */,
+				C2D69F482A10925D0057DBEA /* Satoshi-Bold.otf in Resources */,
+				C2D69F472A10925D0057DBEA /* Satoshi-Regular.otf in Resources */,
+				664CD44B51AF41CF93445FCE /* BootSplash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +352,60 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		224229A82C2AF3D2C5C4D751 /* [CP] Check Pods Manifest.lock */ = {
+		0A04667AD0DFE8B1653F3C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717BF9AE6527DE7864F0BAF7 /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-LifePhotoApp/expo-configure-project.sh\"\n";
+		};
+		7C34EE278F1603BC30B5BDC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		941A67C37A94C6D9ED0A5823 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,24 +427,60 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		38611E8EE1846743B6D30E1D /* [CP] Embed Pods Frameworks */ = {
+		97AB90B293F7B5A3DED3723B /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-LifePhotoApp-LifePhotoAppTests/expo-configure-project.sh\"\n";
+		};
+		C2DA1B197CC327575602C2F5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F3FB7F5D43D1204ACE446D7 /* [CP] Check Pods Manifest.lock */ = {
+		DA63FD8AD4F01E88770DD1BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30F5A9E70A0E76BCE2F7384 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,57 +502,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8BFB60E9C201E645BC636D84 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp/Pods-LifePhotoApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E170265B722A0D1A1A54B5AA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED13E3B21E3346436F99B81E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifePhotoApp-LifePhotoAppTests/Pods-LifePhotoApp-LifePhotoAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -433,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* LifePhotoAppTests.m in Sources */,
+				35D912C8BCB7E65D275F767E /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +520,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				4C2A7BBE2CE0824265F6234D /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,9 +537,12 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50F95E0432CA1C7B802F3ACE /* Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig */;
+			baseConfigurationReference = 7DDE3CAE04CF1954AADF6018 /* Pods-LifePhotoApp-LifePhotoAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J29497Z9T9;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -477,18 +559,23 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifephotoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifePhotoApp.app/LifePhotoApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BACA1AAE85A044125B2FA5C1 /* Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig */;
+			baseConfigurationReference = C616CA1E527D3803228A3E14 /* Pods-LifePhotoApp-LifePhotoAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = J29497Z9T9;
 				INFOPLIST_FILE = LifePhotoAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,21 +588,27 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifephotoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifePhotoApp.app/LifePhotoApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35C6C0D62E57CFBFC660FDFD /* Pods-LifePhotoApp.debug.xcconfig */;
+			baseConfigurationReference = 9921F6982931A711418D48E3 /* Pods-LifePhotoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J29497Z9T9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LifePhotoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Photo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,8 +619,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifephotoapp;
 				PRODUCT_NAME = LifePhotoApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -536,12 +631,16 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73BB9EF1311197F666CE5E90 /* Pods-LifePhotoApp.release.xcconfig */;
+			baseConfigurationReference = F37AF05FBD84BF2FBBAEB40F /* Pods-LifePhotoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J29497Z9T9;
 				INFOPLIST_FILE = LifePhotoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoLife;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,8 +651,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifephotoapp;
 				PRODUCT_NAME = LifePhotoApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -630,8 +731,7 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -702,8 +802,7 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
