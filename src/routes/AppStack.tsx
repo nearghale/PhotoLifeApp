@@ -10,10 +10,10 @@ import {
   SearchScreen,
 } from '@screens';
 
-import {AppTabBottomTabParamList, AppTabNavigator} from './AppTabNavigator';
+import {AppTabBottomParamList, AppTabNavigator} from './AppTabNavigator';
 
 export type AppStackParamList = {
-  AppTabNavigator: NavigatorScreenParams<AppTabBottomTabParamList>;
+  AppTabNavigator: NavigatorScreenParams<AppTabBottomParamList>;
   SettingsScreen: undefined;
   SearchScreen: undefined;
   PostCommentScreen: {
