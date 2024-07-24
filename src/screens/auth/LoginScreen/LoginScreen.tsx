@@ -30,8 +30,8 @@ export function LoginScreen({navigation}: AuthScreenProps<'LoginScreen'>) {
   const {control, formState, handleSubmit} = useForm<LoginSchema>({
     resolver: zodResolver(loginSchema),
     defaultValues: {
-      email: '',
-      password: '',
+      email: 'mariajulia@coffstack.com',
+      password: 'supersecret',
     },
     mode: 'onChange',
   });

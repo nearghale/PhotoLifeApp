@@ -323,7 +323,6 @@
 				C2D69F4A2A10925D0057DBEA /* Satoshi-LightItalic.otf in Resources */,
 				C2D69F452A10925D0057DBEA /* Satoshi-Italic.otf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				C2D69F372A108FE40057DBEA /* Panchang-Light.otf in Resources */,
 				C2D69F492A10925D0057DBEA /* Satoshi-BoldItalic.otf in Resources */,
 				C2D69F4B2A10925D0057DBEA /* Satoshi-BlackItalic.otf in Resources */,
 				C2D69F432A10925D0057DBEA /* Satoshi-Medium.otf in Resources */,
