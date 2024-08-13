@@ -35,6 +35,10 @@ jest.mock('react-native-permissions', () =>
   require('react-native-permissions/mock'),
 );
 
+jest.mock('expo-image-manipulator', () => ({
+  manipulateAsync: jest.fn(),
+}));
+
 jest.mock('../services/permission/permissionService', () => ({
   permissionService: {
     request: jest.fn(),

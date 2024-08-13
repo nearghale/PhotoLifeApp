@@ -2,6 +2,7 @@ import React, {useRef, useState} from 'react';
 import {Dimensions, StyleSheet} from 'react-native';
 
 import {useIsFocused} from '@react-navigation/native';
+import {multimediaService} from '@services';
 import {
   Camera,
   Templates,
@@ -20,6 +21,7 @@ const CONTROL_DIFF = 30;
 export function CameraScreen({navigation}: AppScreenProps<'CameraScreen'>) {
   const {top} = useAppSafeArea();
   const [flashOn, setFlashOne] = useState(false);
+
   const [isReady, setIsReady] = useState(false);
   const device = useCameraDevice('back', {
     physicalDevices: [
@@ -44,7 +46,7 @@ export function CameraScreen({navigation}: AppScreenProps<'CameraScreen'>) {
       });
 
       navigation.navigate('PublishPostScreen', {
-        imageUri: `file://${photoFile?.path}`,
+        imageUri: multimediaService.prepareImageUri(photoFile.path),
       });
     }
   }
